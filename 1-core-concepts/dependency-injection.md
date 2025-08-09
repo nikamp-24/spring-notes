@@ -4,7 +4,9 @@
 
 ### ❓ Q1. What is Dependency Injection (DI)?
 
-> DI is a design pattern where **objects receive their dependencies from an external source** (Spring Container) instead of creating them internally.
+> A **dependency** is just another object that your class needs to work with.  
+**Dependency Injection (DI)** means:  
+> Instead of a class creating its own dependencies, **someone else** (Spring, in our case) creates and provides them.
 
 #### ⚙️ Key Points:
 - **Removes tight coupling** between classes
